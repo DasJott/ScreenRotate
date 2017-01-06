@@ -6,7 +6,8 @@ if [ "$(whoami)" != "root" ]; then
 fi
 
 # ScreenRotator Script
-cp ScreenRotator.desktop ~/.local/share/applications/
-cp toggleScreenRotation.sh /usr/local/bin/
-cp toggleScreenRotation.png /usr/local/share/icons/
+sudo cp ScreenRotator.desktop ~/.local/share/applications/
+sudo cp toggleScreenRotation.sh /usr/local/bin/
+sudo cp toggleScreenRotation.png /usr/local/share/icons/
 
+sudo chmod +x /usr/local/bin/toggleScreenRotation.sh
