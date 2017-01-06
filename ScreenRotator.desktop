@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=ScreenRotator
+GenericName=Screen Rotator
+Comment=Toggles screen rotation
+Exec=/usr/local/bin/toggleScreenRotation.sh
+Icon=/usr/local/share/icons/toggleScreenRotation.png
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Utility;Application;
+Name[de_DE]=ScreenRotator
+GenericName[de_DE]=Screen Rotator
+Comment[de_DE]=Bildschrimausrichtung umschalten
+
