@@ -11,3 +11,4 @@ sudo cp toggleScreenRotation.sh /usr/local/bin/
 sudo cp toggleScreenRotation.png /usr/local/share/icons/
 
 sudo chmod +x /usr/local/bin/toggleScreenRotation.sh
+sudo chmod +r /usr/local/share/icons/toggleScreenRotation.png
